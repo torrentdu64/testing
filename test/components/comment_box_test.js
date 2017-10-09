@@ -18,4 +18,17 @@ describe( 'CommentBox', () => {
       expect(component.find('button')).to.exist;
     });
 
+    describe('enter some text' , () => {
+
+      beforeEach(() => {
+        component.find('textarea').simulate('change', 'new comment');
+      });
+      it('shows text in text area', () => {
+
+      });
+      it('when submitted , clear input', () => {
+
+      });
+    });
+
 });
