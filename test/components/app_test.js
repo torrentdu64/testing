@@ -12,5 +12,7 @@ describe('App', () => {
   it('shows a comment box', () => {
       expect(component.find('.comment-box')).to.exist;
   });
-
+  it('shows a list comment', () => {
+      expect(component.find('.comment-list')).to.exist;
+  });
 });
